@@ -14,5 +14,7 @@ $(document).ready(function() {
     capitalizedList.forEach(function(item) {
       $("#result").append("<li>"+item+"</li>");
     });
+    $(".card").hide();
+    $(".return").show();
   });
 });
