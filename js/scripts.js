@@ -5,7 +5,6 @@ $(document).ready(function() {
     const item2Input = $("#item2").val();
     const item3Input = $("#item3").val();
     const item4Input = $("#item4").val();
-
     let list = [item1Input, item2Input, item3Input, item4Input];
     let sortedList = list.sort();
     let capitalizedList = [];

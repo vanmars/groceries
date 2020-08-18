@@ -11,28 +11,38 @@
 </head>
 <body>
   <div class="container">
-    <form>
-      <h2>Please enter your grocery item needs below:</h2>
-      <label for="item1">Item 1</label>
-      <input id="item1" type="text">
-
-      <label for="item2">Item 2</label>
-      <input id="item2" type="text">
-
-      <label for="item3">Item 3</label>
-      <input id="item3" type="text">
-
-      <label for="item4">Item 4</label>
-      <input id="item4" type="text">
-
-      <button type="submit">Submit</button>
-    </form>
+    <div class="jumbotron">
+      <h1 class="display-3">Grocery List</h3>
+      <hr>
+      <p class="lead">Enter your grocery list items below:</p>
+    </div>
+    <div class="card p-4 shadow-lg">
+      <form>
+        <h4 class="lead">Please enter your grocery item needs below:</h4>
+        <br>
+        <div class="form-group">
+          <label for="item1">Item 1</label>
+          <input id="item1" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item2">Item 2</label>
+          <input id="item2" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item3">Item 3</label>
+        <input id="item3" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item4">Item 4</label>
+        <input id="item4" type="text">
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
     <div>
-      <ul id="result">
-        
-      </ul>
+      <ul id="result"></ul>
     </div>
   </div>
-  
 </body>
 </html>
