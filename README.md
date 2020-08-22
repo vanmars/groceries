@@ -11,7 +11,7 @@ _This is a simple web page project to practice using Arrays, the sort and push a
 ## Setup/Installation Requirements
 
 To View Project:
-* Open a web browser of your choice and navigate to the following page: https://vanmars.github.io/grocery-list-alphabatizer/.
+* Open a web browser of your choice and navigate to the following page: https://vanmars.github.io/grocery-list-alphabetizer/.
 
 To Extend This Project:
 * Clone this project using the 'git clone' command in terminal.
