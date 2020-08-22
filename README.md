@@ -11,7 +11,7 @@ _This is a simple web page project to practice using Arrays, the sort and push a
 ## Setup/Installation Requirements
 
 To View Project:
-* Open a web browser of your choice and navigate to the following page: https://vanmars.github.io/groceries/.
+* Open a web browser of your choice and navigate to the following page: https://vanmars.github.io/grocery-list-alphabatizer/.
 
 To Extend This Project:
 * Clone this project using the 'git clone' command in terminal.
@@ -20,7 +20,6 @@ To Extend This Project:
 ## Known Bugs
 
 * Form only allows for four input fields. Future iterations could allow user to enter a list of items, which the JS then processes as an array.
-
 
 ## Technologies Used
 
